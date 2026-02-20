@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Moon Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+  <div class="stars">
+  <div class="star" style="top:10%; left:20%"></div>
+  <div class="star" style="top:30%; left:70%"></div>
+  <div class="star" style="top:60%; left:40%"></div>
+  <div class="star" style="top:80%; left:80%"></div>
+</div>
+
+<div class="moon"></div>
+
+<header>
+  <h1><i class="fa-solid fa-moon"></i> Moon Website</h1>
+  <nav>
+    <a href="login.html">Login</a>
+    <a href="index.html">Home</a>
+    <a href="attendance.html">Attendance</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Login</h2>
+  <div class="card login-form">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">
+      <i class="fa-solid fa-right-to-bracket"></i> Login
+    </button>
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
